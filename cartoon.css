@@ -1,0 +1,121 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/image.png');
+  background-position: 50% 50%, 50.74% 100%;
+  background-size: auto 135%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 799px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 357px;
+  height: 339px;
+  --radius: 10px;
+  margin: 372px auto 0 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 312px;
+  height: 244px;
+  --radius: 10px;
+  margin: -299px 61px 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 1.25rem;
+  margin: 25px 116px 0 767px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: -9px 774px 24px 17px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 659px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 16px;
+    margin-left: 667px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 591px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 505px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 116px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -302px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 118px;
+    margin-right: 0;
+    margin-left: 463px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin: -56px 210px 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 379px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: -1147px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: 1073px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 60px;
+    margin-left: 283px;
+    font-size: 1rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin: 191px 300px -822px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 223px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 323px;
+    margin-top: -1252px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: 1037px;
+    margin-right: 28px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 83px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin: 242px 400px -873px;
+  }
+}
